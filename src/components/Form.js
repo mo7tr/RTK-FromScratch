@@ -10,13 +10,12 @@ const Form = () => {
   const formRef = useRef();
 
   const dispatch = useDispatch();
-  // const picsData = useSelector((state) => state.pictures.pictures);
+  const picsData = useSelector((state) => state.pictures.pictures);
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // const lastPicId = picsData[picsData.length-1];
-    // console.log("lastPicsId =>", lastPicId);
+    const lastPicId = picsData[picsData.length - 1].id;
 
     const data = {
       artist: inputArt.current.value,
@@ -24,7 +23,7 @@ const Form = () => {
       photo: `https://picsum.photos/400/${Math.round(
         Math.random() * 200 + 300
       )}`,
-      // id:
+      id: lastPicId + 1,
     };
 
     axios.post("http://localhost:5000/pictures", data).then(() => {

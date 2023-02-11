@@ -9,14 +9,10 @@ import { setPicturesData } from "./store/pictures/pictures.slice";
 const App = () => {
   const dispatch = useDispatch();
   const picsData = useSelector((state) => state.pictures.pictures);
-  console.log("state in app.js =>", picsData);
-
-  picsData && console.log("picsData in app.js =>", picsData.length);
   // const picsData = useSelector(({pictures}) => pictures.pictures);
 
   const getPictures = () => {
     axios.get("http://localhost:5000/pictures").then((res) => {
-      console.log("res =>", res.data);
       dispatch(setPicturesData(res.data));
     });
   };
@@ -25,7 +21,7 @@ const App = () => {
 
   useEffect(() => {
     getPictures();
-  }, [picsData && picsData.length]);
+  }, []);
 
   return (
     <>
