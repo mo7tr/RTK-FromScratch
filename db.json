@@ -1,12 +1,6 @@
 {
   "pictures": [
     {
-      "artist": "Kamau",
-      "year": "2005",
-      "photo": "https://picsum.photos/400/484",
-      "id": 3
-    },
-    {
       "artist": "Samedixs",
       "year": "2010",
       "photo": "https://picsum.photos/400/396",
@@ -43,10 +37,70 @@
       "id": 9
     },
     {
-      "artist": "azer",
-      "year": "azer",
-      "photo": "https://picsum.photos/400/351",
+      "artist": "Jean Jacques",
+      "year": "2222",
+      "photo": "https://picsum.photos/400/483",
       "id": 10
+    },
+    {
+      "artist": "c",
+      "year": "8888",
+      "photo": "https://picsum.photos/400/403",
+      "id": 12
+    },
+    {
+      "artist": "abc",
+      "year": "1111",
+      "photo": "https://picsum.photos/400/469",
+      "id": 13
+    },
+    {
+      "artist": "wd",
+      "year": "1111",
+      "photo": "https://picsum.photos/400/429",
+      "id": 14
+    },
+    {
+      "artist": "fra",
+      "year": "4896",
+      "photo": "https://picsum.photos/400/484",
+      "id": 15
+    },
+    {
+      "artist": "azerty",
+      "year": "7966",
+      "photo": "https://picsum.photos/400/308",
+      "id": 16
+    },
+    {
+      "artist": "q",
+      "year": "1111",
+      "photo": "https://picsum.photos/400/430",
+      "id": 18
+    },
+    {
+      "artist": "wd",
+      "year": "7777",
+      "photo": "https://picsum.photos/400/388",
+      "id": 19
+    },
+    {
+      "artist": "aka",
+      "year": "4747",
+      "photo": "https://picsum.photos/400/353",
+      "id": 20
+    },
+    {
+      "artist": "n",
+      "year": "33",
+      "photo": "https://picsum.photos/400/493",
+      "id": 21
+    },
+    {
+      "artist": "b",
+      "year": "77",
+      "photo": "https://picsum.photos/400/354",
+      "id": 22
     }
   ]
 }
