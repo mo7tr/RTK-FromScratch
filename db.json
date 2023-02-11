@@ -1,22 +1,10 @@
 {
   "pictures": [
     {
-      "artist": "Kamau",
-      "year": "2005",
-      "photo": "https://picsum.photos/400/484",
-      "id": 3
-    },
-    {
       "artist": "Samedixs",
       "year": "2010",
       "photo": "https://picsum.photos/400/396",
       "id": 4
-    },
-    {
-      "artist": "Misan Harriman",
-      "year": "1999",
-      "photo": "https://picsum.photos/400/338",
-      "id": 5
     },
     {
       "artist": "Takeshi Nagano",
@@ -25,28 +13,34 @@
       "id": 6
     },
     {
-      "artist": "Neil Burnell",
-      "year": "2012",
-      "photo": "https://picsum.photos/400/443",
-      "id": 7
+      "artist": "abc",
+      "year": "1111",
+      "photo": "https://picsum.photos/400/469",
+      "id": 13
     },
     {
-      "artist": "Jidhun",
-      "year": "2009",
-      "photo": "https://picsum.photos/400/364",
-      "id": 8
+      "artist": "fra",
+      "year": "4896",
+      "photo": "https://picsum.photos/400/484",
+      "id": 15
     },
     {
-      "artist": "Martin Grange",
-      "year": "2021",
-      "photo": "https://picsum.photos/400/470",
-      "id": 9
+      "artist": "n",
+      "year": "11",
+      "photo": "https://picsum.photos/400/370",
+      "id": 16
     },
     {
-      "artist": "azer",
-      "year": "azer",
-      "photo": "https://picsum.photos/400/351",
-      "id": 10
+      "artist": "aaa",
+      "year": "12",
+      "photo": "https://picsum.photos/400/386",
+      "id": 17
+    },
+    {
+      "artist": "a",
+      "year": "34",
+      "photo": "https://picsum.photos/400/442",
+      "id": 18
     }
   ]
 }

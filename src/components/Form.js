@@ -1,15 +1,21 @@
 import axios from "axios";
 import { useRef } from "react";
 
+import { useDispatch, useSelector } from "react-redux";
+import { addPicture } from "./../store/pictures/pictures.slice";
+
 const Form = () => {
   const inputArt = useRef();
   const inputYear = useRef();
   const formRef = useRef();
 
-  console.log("Art,Year,FormRef =>", inputArt, inputYear, formRef);
+  const dispatch = useDispatch();
+  const picsData = useSelector((state) => state.pictures.pictures);
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    const lastPicId = picsData[picsData.length - 1].id;
 
     const data = {
       artist: inputArt.current.value,
@@ -17,9 +23,11 @@ const Form = () => {
       photo: `https://picsum.photos/400/${Math.round(
         Math.random() * 200 + 300
       )}`,
+      id: lastPicId + 1,
     };
 
     axios.post("http://localhost:5000/pictures", data).then(() => {
+      dispatch(addPicture(data));
       formRef.current.reset();
     });
   };
