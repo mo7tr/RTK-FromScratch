@@ -10,3 +10,8 @@
 
 Learning Redux Toolkit through From Scratch tutorial:
 https://www.youtube.com/watch?v=O87hWNxiQ5w
+https://fromscratch.podia.com/
+
+His github for the start of this project:
+
+https://github.com/JustFS/mastering-front-end/tree/a04977be29e236ada413cf49fda61237f1abda6d
