@@ -8,8 +8,8 @@ import { setPicturesData } from "./store/pictures/pictures.slice";
 
 const App = () => {
   const dispatch = useDispatch();
-  const picsData = useSelector((state) => state.pictures.pictures);
-  // const picsData = useSelector(({pictures}) => pictures.pictures);
+  const picsData = useSelector((state) => state.pictures.value);
+  // const picsData = useSelector(({pictures}) => pictures.value);
 
   const getPictures = () => {
     axios.get("http://localhost:5000/pictures").then((res) => {

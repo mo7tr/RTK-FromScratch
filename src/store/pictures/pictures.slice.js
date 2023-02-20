@@ -4,19 +4,19 @@ import { createSlice } from "@reduxjs/toolkit";
 
 export const picturesSlice = createSlice({
   name: "pictures",
-  initialState: { pictures: null },
+  initialState: { value: null },
   reducers: {
     setPicturesData: (state, action) => {
-      state.pictures = action.payload;
+      state.value = action.payload;
     },
     // setPicturesData: (state, {payload}) => {
     //     state.pictures = payload;
     //   },
     addPicture: (state, { payload }) => {
-      state.pictures.push(payload);
+      state.value.push(payload);
     },
     editPicture: (state, { payload }) => {
-      state.pictures = state.pictures.map((pic) => {
+      state.value = state.value.map((pic) => {
         if (pic.id === payload[1]) {
           return {
             ...pic,
@@ -28,7 +28,7 @@ export const picturesSlice = createSlice({
       });
     },
     deletePicture: (state, { payload }) => {
-      state.pictures = state.pictures.filter((pic) => pic.id !== payload);
+      state.value = state.value.filter((pic) => pic.id !== payload);
     },
   },
 });

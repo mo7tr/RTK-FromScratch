@@ -1,28 +1,16 @@
 {
   "pictures": [
     {
-      "artist": "Samedixs",
-      "year": "2010",
-      "photo": "https://picsum.photos/400/396",
-      "id": 4
-    },
-    {
       "artist": "Takeshi Nagano",
       "year": "2017",
       "photo": "https://picsum.photos/400/499",
       "id": 6
     },
     {
-      "artist": "abc",
+      "artist": "abcd",
       "year": "1111",
       "photo": "https://picsum.photos/400/469",
       "id": 13
-    },
-    {
-      "artist": "fra",
-      "year": "4896",
-      "photo": "https://picsum.photos/400/484",
-      "id": 15
     },
     {
       "artist": "n",
@@ -37,10 +25,16 @@
       "id": 17
     },
     {
-      "artist": "a",
+      "artist": "t",
       "year": "34",
       "photo": "https://picsum.photos/400/442",
       "id": 18
+    },
+    {
+      "artist": "aaaab",
+      "year": "1111",
+      "photo": "https://picsum.photos/400/466",
+      "id": 19
     }
   ]
 }

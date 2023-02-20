@@ -10,7 +10,7 @@ const Form = () => {
   const formRef = useRef();
 
   const dispatch = useDispatch();
-  const picsData = useSelector((state) => state.pictures.pictures);
+  const picsData = useSelector((state) => state.pictures.value);
 
   const handleSubmit = (e) => {
     e.preventDefault();
